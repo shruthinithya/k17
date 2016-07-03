@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><title>F.R.I.E.N.D.S. - Seasons</title>
+<!-- REMEMBER : INSERT A HEADER: SOME BG PICTURE, AND CATCHY TITLE -->
+
+<style type="text/css">
+	<!--
+	.spcl
+	{
+		font-size:20pt;
+		list-style-type:circle !important;
+	}
+	-->
+	.spcl li
+	{
+		float:none;
+		font-size:18pt;
+		color:teal;
+		list-style-type:circle ;
+	}
+	ul 
+	{
+		list-style-type:none;
+		padding:0;
+		margin:0;
+		position:fixed;
+		top:0;
+		width:100%;
+		background-color:#FFCC33 ;
+	}
+	
+	body
+	{
+		margin:50pt;
+		font-family:"Trebuchet MS", Helvetica, sans-serif;
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+	li 
+	{
+		float:left;
+	}
+	li a, .dropbtn
+	{
+		display:inline-block;
+		color:#000000;
+		padding:14px 16px;
+		text-decoration:none;
+		text-align:center;
+		
+	}
+	li.dropdown
+	{
+		display:inline-block;
+	}
+	.dropcontent
+	{
+		display:none;
+		background-color:#FFFF66;
+		position:absolute;
+		min-width:150px;
+		box-shadow:10px 10px 10px 0 rgba(0,0,0,0.2);
+	}
+	.dropcontent a
+	{
+		color:#280000;
+		padding:12px 18px;
+		text-decoration:none;
+		display:block;
+		text-align:left;
+	}
+	.dropcontent a:hover
+	{
+		background-color:#FF3333;
+		font-weight:bold;
+	}
+	.dropdown:hover .dropcontent
+	{
+		background-color:#FFCC66;
+		display:block;
+	}
+	li a:hover:not(.active), .dropdown:hover .dropbtn
+	{
+		background-color:#FF9900;
+		color:#000000;
+		font-weight:bold;
+		
+	}
+	.active
+	{
+		background-color:#003333;
+		color:#C0C0C0;
+		font-weight:bold;
+	}
+	
+</style>
+</head>
+<body background="bg4.jpg">
+<ul>
+	<li><a  href="index.html">Home</a></li> <!-- normal menu -->
+	<!--<li><a href="cast.html">Cast</a></li> <!-- 2 drop downs: main & recurring -->
+		<li class="dropdown">
+		<a class="active" href="#" class="dropbtn">Characters</a>
+		<div class="dropcontent">
+			<a href="char1.html">Main</a>
+			<a href="#">Recurring</a>
+		</div>
+	</li>
+	<li><a  href="seasons.html">Seasons</a></li> <!-- 10 drop downs -->
+	<li><a href="reception.html">Reception</a></li>
+	
+</ul>
+<br><br><br><br>
+<center>
+<img src="title.jpg" width=600 height=100 />
+<p style="color:gold;font-size:28pt;font-style:italic;">Recurring Characters</p>
+</center>
+<div class="spcl">
+	<ol>
+		<li>Gunther</li>
+		<li>Jack and Judy Geller</li>
+		<li>Carol Willick</li>
+		<li>Ursula Buffay</li>
+		<li>Richard Burke</li>
+		<li>Estelle Leonard</li>
+		<li>Emily Waltham</li>
+		<li>Tag Jones</li>
+		<li>Mike Hannigan</li>
+	</ol>
+</div>
+<br><br>
+</body>
+</html>
+
